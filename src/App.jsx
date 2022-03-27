@@ -10,7 +10,6 @@ import Result from "./components/Result";
 
 const App = () => {
   const [stack, setStack] = useState("");
-
   const items = words(stack, /[^-^+^*^/]+/g);
 
   return (
